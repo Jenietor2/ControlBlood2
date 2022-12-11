@@ -35,6 +35,7 @@ namespace ProductAPI
             services.AddTransient<IProductRepository, ProductRepository>();
             services.AddTransient<ICustomerRepository, CustomerRepository>();
             services.AddTransient<ISaleRepository, SaleRepository>();
+            services.AddTransient<IBloodBankRepository, BloodBankRepository>();
             services.AddCors(options => {
                 options.AddDefaultPolicy(builder => {
                     builder.WithOrigins("http://localhost:4200").AllowAnyMethod().AllowAnyHeader();

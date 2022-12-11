@@ -10,6 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\BloodBank.Entities\ControlBlood.Entity.csproj" />
     <ProjectReference Include="..\Common\Sales.Entity.csproj" />
     <ProjectReference Include="..\Sales.Repository.SqlServer\Sales.Repository.csproj" />
   </ItemGroup>

@@ -428,6 +428,31 @@
           }
         }
       },
+      "ControlBlood.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "ControlBlood.Entity": "1.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+          "Oracle.ManagedDataAccess.Core": "3.21.80"
+        },
+        "compile": {
+          "bin/placeholder/ControlBlood.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ControlBlood.Data.dll": {}
+        }
+      },
+      "ControlBlood.Entity/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/ControlBlood.Entity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ControlBlood.Entity.dll": {}
+        }
+      },
       "Sales.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -1249,6 +1274,16 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "ControlBlood.Data/1.0.0": {
+      "type": "project",
+      "path": "../BloodBank.Data/ControlBlood.Data.csproj",
+      "msbuildProject": "../BloodBank.Data/ControlBlood.Data.csproj"
+    },
+    "ControlBlood.Entity/1.0.0": {
+      "type": "project",
+      "path": "../BloodBank.Entities/ControlBlood.Entity.csproj",
+      "msbuildProject": "../BloodBank.Entities/ControlBlood.Entity.csproj"
+    },
     "Sales.Data/1.0.0": {
       "type": "project",
       "path": "../LayerData/Sales.Data.csproj",
@@ -1262,24 +1297,26 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "ControlBlood.Data >= 1.0.0",
+      "ControlBlood.Entity >= 1.0.0",
       "Sales.Data >= 1.0.0",
       "Sales.Entity >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\EDUARD\\.nuget\\packages\\": {}
+    "C:\\Users\\joan_\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\UT\\semestre-09\\seminario\\proyecto\\ControlBlood\\Sales.Business\\Sales.Business.csproj",
+      "projectUniqueName": "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\Sales.Business\\Sales.Business.csproj",
       "projectName": "Sales.Business",
-      "projectPath": "E:\\UT\\semestre-09\\seminario\\proyecto\\ControlBlood\\Sales.Business\\Sales.Business.csproj",
-      "packagesPath": "C:\\Users\\EDUARD\\.nuget\\packages\\",
-      "outputPath": "E:\\UT\\semestre-09\\seminario\\proyecto\\ControlBlood\\Sales.Business\\obj\\",
+      "projectPath": "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\Sales.Business\\Sales.Business.csproj",
+      "packagesPath": "C:\\Users\\joan_\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\Sales.Business\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\EDUARD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\joan_\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1293,11 +1330,17 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "E:\\UT\\semestre-09\\seminario\\proyecto\\ControlBlood\\Common\\Sales.Entity.csproj": {
-              "projectPath": "E:\\UT\\semestre-09\\seminario\\proyecto\\ControlBlood\\Common\\Sales.Entity.csproj"
+            "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\BloodBank.Data\\ControlBlood.Data.csproj": {
+              "projectPath": "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\BloodBank.Data\\ControlBlood.Data.csproj"
             },
-            "E:\\UT\\semestre-09\\seminario\\proyecto\\ControlBlood\\LayerData\\Sales.Data.csproj": {
-              "projectPath": "E:\\UT\\semestre-09\\seminario\\proyecto\\ControlBlood\\LayerData\\Sales.Data.csproj"
+            "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\BloodBank.Entities\\ControlBlood.Entity.csproj": {
+              "projectPath": "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\BloodBank.Entities\\ControlBlood.Entity.csproj"
+            },
+            "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\Common\\Sales.Entity.csproj": {
+              "projectPath": "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\Common\\Sales.Entity.csproj"
+            },
+            "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\LayerData\\Sales.Data.csproj": {
+              "projectPath": "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\LayerData\\Sales.Data.csproj"
             }
           }
         }
@@ -1326,7 +1369,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

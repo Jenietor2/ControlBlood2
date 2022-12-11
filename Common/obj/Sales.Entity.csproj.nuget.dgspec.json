@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\UT\\semestre-09\\seminario\\proyecto\\ControlBlood\\Common\\Sales.Entity.csproj": {}
+    "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\Common\\Sales.Entity.csproj": {}
   },
   "projects": {
-    "E:\\UT\\semestre-09\\seminario\\proyecto\\ControlBlood\\Common\\Sales.Entity.csproj": {
+    "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\Common\\Sales.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\UT\\semestre-09\\seminario\\proyecto\\ControlBlood\\Common\\Sales.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\Common\\Sales.Entity.csproj",
         "projectName": "Sales.Entity",
-        "projectPath": "E:\\UT\\semestre-09\\seminario\\proyecto\\ControlBlood\\Common\\Sales.Entity.csproj",
-        "packagesPath": "C:\\Users\\EDUARD\\.nuget\\packages\\",
-        "outputPath": "E:\\UT\\semestre-09\\seminario\\proyecto\\ControlBlood\\Common\\obj\\",
+        "projectPath": "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\Common\\Sales.Entity.csproj",
+        "packagesPath": "C:\\Users\\joan_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\EDUARD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\joan_\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

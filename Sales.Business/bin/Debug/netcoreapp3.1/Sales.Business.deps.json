@@ -8,6 +8,8 @@
     ".NETCoreApp,Version=v3.1": {
       "Sales.Business/1.0.0": {
         "dependencies": {
+          "ControlBlood.Data": "1.0.0",
+          "ControlBlood.Entity": "1.0.0",
           "Sales.Data": "1.0.0",
           "Sales.Entity": "1.0.0"
         },
@@ -405,6 +407,21 @@
           }
         }
       },
+      "ControlBlood.Data/1.0.0": {
+        "dependencies": {
+          "ControlBlood.Entity": "1.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+          "Oracle.ManagedDataAccess.Core": "3.21.80"
+        },
+        "runtime": {
+          "ControlBlood.Data.dll": {}
+        }
+      },
+      "ControlBlood.Entity/1.0.0": {
+        "runtime": {
+          "ControlBlood.Entity.dll": {}
+        }
+      },
       "Sales.Data/1.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
@@ -610,6 +627,16 @@
       "sha512": "sha512-IXoJOXIqc39AIe+CIR7koBtRGMiCt/LPM3lI+PELtDIy9XdyeSrwXFdWV9dzJ2Awl0paLWUaknLxFQ5HpHZUog==",
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
+    },
+    "ControlBlood.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ControlBlood.Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Sales.Data/1.0.0": {
       "type": "project",

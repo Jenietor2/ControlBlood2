@@ -1269,19 +1269,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\EDUARD\\.nuget\\packages\\": {}
+    "C:\\Users\\joan_\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\UT\\semestre-09\\seminario\\proyecto\\ControlBlood\\ConsolaTest\\ConsolaTest.csproj",
+      "projectUniqueName": "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\ConsolaTest\\ConsolaTest.csproj",
       "projectName": "ConsolaTest",
-      "projectPath": "E:\\UT\\semestre-09\\seminario\\proyecto\\ControlBlood\\ConsolaTest\\ConsolaTest.csproj",
-      "packagesPath": "C:\\Users\\EDUARD\\.nuget\\packages\\",
-      "outputPath": "E:\\UT\\semestre-09\\seminario\\proyecto\\ControlBlood\\ConsolaTest\\obj\\",
+      "projectPath": "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\ConsolaTest\\ConsolaTest.csproj",
+      "packagesPath": "C:\\Users\\joan_\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\ConsolaTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\EDUARD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\joan_\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1295,8 +1295,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "E:\\UT\\semestre-09\\seminario\\proyecto\\ControlBlood\\LayerData\\Sales.Data.csproj": {
-              "projectPath": "E:\\UT\\semestre-09\\seminario\\proyecto\\ControlBlood\\LayerData\\Sales.Data.csproj"
+            "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\LayerData\\Sales.Data.csproj": {
+              "projectPath": "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\LayerData\\Sales.Data.csproj"
             }
           }
         }
@@ -1335,7 +1335,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

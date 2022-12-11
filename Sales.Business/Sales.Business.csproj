@@ -5,6 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\BloodBank.Data\ControlBlood.Data.csproj" />
+    <ProjectReference Include="..\BloodBank.Entities\ControlBlood.Entity.csproj" />
     <ProjectReference Include="..\Common\Sales.Entity.csproj" />
     <ProjectReference Include="..\LayerData\Sales.Data.csproj" />
   </ItemGroup>

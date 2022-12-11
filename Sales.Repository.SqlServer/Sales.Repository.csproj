@@ -9,6 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\BloodBank.Business\BloodBank.Business.csproj" />
     <ProjectReference Include="..\Common\Sales.Entity.csproj" />
     <ProjectReference Include="..\Sales.Business\Sales.Business.csproj" />
   </ItemGroup>

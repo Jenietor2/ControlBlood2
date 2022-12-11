@@ -17,3 +17,11 @@ E:\UT\semestre-09\seminario\proyecto\ControlBlood\Common\obj\Debug\netcoreapp3.1
 E:\UT\semestre-09\seminario\proyecto\ControlBlood\Common\obj\Debug\netcoreapp3.1\Sales.Entity.csproj.CoreCompileInputs.cache
 E:\UT\semestre-09\seminario\proyecto\ControlBlood\Common\obj\Debug\netcoreapp3.1\Sales.Entity.dll
 E:\UT\semestre-09\seminario\proyecto\ControlBlood\Common\obj\Debug\netcoreapp3.1\Sales.Entity.pdb
+C:\Users\joan_\OneDrive\Documents\Joan\semestre-09\seminario\proyectos\controlBlood2\Common\bin\Debug\netcoreapp3.1\Sales.Entity.deps.json
+C:\Users\joan_\OneDrive\Documents\Joan\semestre-09\seminario\proyectos\controlBlood2\Common\bin\Debug\netcoreapp3.1\Sales.Entity.dll
+C:\Users\joan_\OneDrive\Documents\Joan\semestre-09\seminario\proyectos\controlBlood2\Common\bin\Debug\netcoreapp3.1\Sales.Entity.pdb
+C:\Users\joan_\OneDrive\Documents\Joan\semestre-09\seminario\proyectos\controlBlood2\Common\obj\Debug\netcoreapp3.1\Sales.Entity.AssemblyInfoInputs.cache
+C:\Users\joan_\OneDrive\Documents\Joan\semestre-09\seminario\proyectos\controlBlood2\Common\obj\Debug\netcoreapp3.1\Sales.Entity.AssemblyInfo.cs
+C:\Users\joan_\OneDrive\Documents\Joan\semestre-09\seminario\proyectos\controlBlood2\Common\obj\Debug\netcoreapp3.1\Sales.Entity.csproj.CoreCompileInputs.cache
+C:\Users\joan_\OneDrive\Documents\Joan\semestre-09\seminario\proyectos\controlBlood2\Common\obj\Debug\netcoreapp3.1\Sales.Entity.dll
+C:\Users\joan_\OneDrive\Documents\Joan\semestre-09\seminario\proyectos\controlBlood2\Common\obj\Debug\netcoreapp3.1\Sales.Entity.pdb

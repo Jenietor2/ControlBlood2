@@ -31,6 +31,7 @@
     ".NETCoreApp,Version=v3.1": {
       "Sales.API/1.0.0": {
         "dependencies": {
+          "ControlBlood.Entity": "1.0.0",
           "Sales.Entity": "1.0.0",
           "Sales.Repository": "1.0.0",
           "System.Data.SqlClient": "4.8.3",
@@ -764,8 +765,43 @@
           "lib/netcoreapp3.1/System.Windows.Extensions.dll": {}
         }
       },
+      "BloodBank.Business/1.0.0": {
+        "dependencies": {
+          "ControlBlood.Data": "1.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0"
+        },
+        "runtime": {
+          "BloodBank.Business.dll": {}
+        },
+        "compile": {
+          "BloodBank.Business.dll": {}
+        }
+      },
+      "ControlBlood.Data/1.0.0": {
+        "dependencies": {
+          "ControlBlood.Entity": "1.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+          "Oracle.ManagedDataAccess.Core": "3.21.80"
+        },
+        "runtime": {
+          "ControlBlood.Data.dll": {}
+        },
+        "compile": {
+          "ControlBlood.Data.dll": {}
+        }
+      },
+      "ControlBlood.Entity/1.0.0": {
+        "runtime": {
+          "ControlBlood.Entity.dll": {}
+        },
+        "compile": {
+          "ControlBlood.Entity.dll": {}
+        }
+      },
       "Sales.Business/1.0.0": {
         "dependencies": {
+          "ControlBlood.Data": "1.0.0",
+          "ControlBlood.Entity": "1.0.0",
           "Sales.Data": "1.0.0",
           "Sales.Entity": "1.0.0"
         },
@@ -800,6 +836,7 @@
       },
       "Sales.Repository/1.0.0": {
         "dependencies": {
+          "BloodBank.Business": "1.0.0",
           "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
           "Sales.Business": "1.0.0",
           "Sales.Entity": "1.0.0"
@@ -2632,6 +2669,21 @@
       "sha512": "sha512-IXoJOXIqc39AIe+CIR7koBtRGMiCt/LPM3lI+PELtDIy9XdyeSrwXFdWV9dzJ2Awl0paLWUaknLxFQ5HpHZUog==",
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
+    },
+    "BloodBank.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ControlBlood.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ControlBlood.Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Sales.Business/1.0.0": {
       "type": "project",

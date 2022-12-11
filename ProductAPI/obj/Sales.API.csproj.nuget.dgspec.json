@@ -1,20 +1,152 @@
 {
   "format": 1,
   "restore": {
-    "E:\\UT\\semestre-09\\seminario\\proyecto\\ControlBlood\\ProductAPI\\Sales.API.csproj": {}
+    "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\ProductAPI\\Sales.API.csproj": {}
   },
   "projects": {
-    "E:\\UT\\semestre-09\\seminario\\proyecto\\ControlBlood\\Common\\Sales.Entity.csproj": {
+    "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\BloodBank.Business\\BloodBank.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\UT\\semestre-09\\seminario\\proyecto\\ControlBlood\\Common\\Sales.Entity.csproj",
-        "projectName": "Sales.Entity",
-        "projectPath": "E:\\UT\\semestre-09\\seminario\\proyecto\\ControlBlood\\Common\\Sales.Entity.csproj",
-        "packagesPath": "C:\\Users\\EDUARD\\.nuget\\packages\\",
-        "outputPath": "E:\\UT\\semestre-09\\seminario\\proyecto\\ControlBlood\\Common\\obj\\",
+        "projectUniqueName": "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\BloodBank.Business\\BloodBank.Business.csproj",
+        "projectName": "BloodBank.Business",
+        "projectPath": "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\BloodBank.Business\\BloodBank.Business.csproj",
+        "packagesPath": "C:\\Users\\joan_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\BloodBank.Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\EDUARD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\joan_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\BloodBank.Data\\ControlBlood.Data.csproj": {
+                "projectPath": "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\BloodBank.Data\\ControlBlood.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\BloodBank.Data\\ControlBlood.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\BloodBank.Data\\ControlBlood.Data.csproj",
+        "projectName": "ControlBlood.Data",
+        "projectPath": "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\BloodBank.Data\\ControlBlood.Data.csproj",
+        "packagesPath": "C:\\Users\\joan_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\BloodBank.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\joan_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\BloodBank.Entities\\ControlBlood.Entity.csproj": {
+                "projectPath": "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\BloodBank.Entities\\ControlBlood.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Oracle.ManagedDataAccess.Core": {
+              "target": "Package",
+              "version": "[3.21.80, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\BloodBank.Entities\\ControlBlood.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\BloodBank.Entities\\ControlBlood.Entity.csproj",
+        "projectName": "ControlBlood.Entity",
+        "projectPath": "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\BloodBank.Entities\\ControlBlood.Entity.csproj",
+        "packagesPath": "C:\\Users\\joan_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\BloodBank.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\joan_\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,21 +186,75 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\UT\\semestre-09\\seminario\\proyecto\\ControlBlood\\LayerData\\Sales.Data.csproj": {
+    "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\Common\\Sales.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\UT\\semestre-09\\seminario\\proyecto\\ControlBlood\\LayerData\\Sales.Data.csproj",
-        "projectName": "Sales.Data",
-        "projectPath": "E:\\UT\\semestre-09\\seminario\\proyecto\\ControlBlood\\LayerData\\Sales.Data.csproj",
-        "packagesPath": "C:\\Users\\EDUARD\\.nuget\\packages\\",
-        "outputPath": "E:\\UT\\semestre-09\\seminario\\proyecto\\ControlBlood\\LayerData\\obj\\",
+        "projectUniqueName": "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\Common\\Sales.Entity.csproj",
+        "projectName": "Sales.Entity",
+        "projectPath": "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\Common\\Sales.Entity.csproj",
+        "packagesPath": "C:\\Users\\joan_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\EDUARD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\joan_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\LayerData\\Sales.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\LayerData\\Sales.Data.csproj",
+        "projectName": "Sales.Data",
+        "projectPath": "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\LayerData\\Sales.Data.csproj",
+        "packagesPath": "C:\\Users\\joan_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\LayerData\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\joan_\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,8 +268,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "E:\\UT\\semestre-09\\seminario\\proyecto\\ControlBlood\\Common\\Sales.Entity.csproj": {
-                "projectPath": "E:\\UT\\semestre-09\\seminario\\proyecto\\ControlBlood\\Common\\Sales.Entity.csproj"
+              "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\Common\\Sales.Entity.csproj": {
+                "projectPath": "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\Common\\Sales.Entity.csproj"
               }
             }
           }
@@ -126,21 +312,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\UT\\semestre-09\\seminario\\proyecto\\ControlBlood\\ProductAPI\\Sales.API.csproj": {
+    "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\ProductAPI\\Sales.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\UT\\semestre-09\\seminario\\proyecto\\ControlBlood\\ProductAPI\\Sales.API.csproj",
+        "projectUniqueName": "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\ProductAPI\\Sales.API.csproj",
         "projectName": "Sales.API",
-        "projectPath": "E:\\UT\\semestre-09\\seminario\\proyecto\\ControlBlood\\ProductAPI\\Sales.API.csproj",
-        "packagesPath": "C:\\Users\\EDUARD\\.nuget\\packages\\",
-        "outputPath": "E:\\UT\\semestre-09\\seminario\\proyecto\\ControlBlood\\ProductAPI\\obj\\",
+        "projectPath": "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\ProductAPI\\Sales.API.csproj",
+        "packagesPath": "C:\\Users\\joan_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\ProductAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\EDUARD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\joan_\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -154,11 +340,14 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "E:\\UT\\semestre-09\\seminario\\proyecto\\ControlBlood\\Common\\Sales.Entity.csproj": {
-                "projectPath": "E:\\UT\\semestre-09\\seminario\\proyecto\\ControlBlood\\Common\\Sales.Entity.csproj"
+              "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\BloodBank.Entities\\ControlBlood.Entity.csproj": {
+                "projectPath": "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\BloodBank.Entities\\ControlBlood.Entity.csproj"
               },
-              "E:\\UT\\semestre-09\\seminario\\proyecto\\ControlBlood\\Sales.Repository.SqlServer\\Sales.Repository.csproj": {
-                "projectPath": "E:\\UT\\semestre-09\\seminario\\proyecto\\ControlBlood\\Sales.Repository.SqlServer\\Sales.Repository.csproj"
+              "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\Common\\Sales.Entity.csproj": {
+                "projectPath": "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\Common\\Sales.Entity.csproj"
+              },
+              "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\Sales.Repository.SqlServer\\Sales.Repository.csproj": {
+                "projectPath": "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\Sales.Repository.SqlServer\\Sales.Repository.csproj"
               }
             }
           }
@@ -196,21 +385,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\UT\\semestre-09\\seminario\\proyecto\\ControlBlood\\Sales.Business\\Sales.Business.csproj": {
+    "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\Sales.Business\\Sales.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\UT\\semestre-09\\seminario\\proyecto\\ControlBlood\\Sales.Business\\Sales.Business.csproj",
+        "projectUniqueName": "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\Sales.Business\\Sales.Business.csproj",
         "projectName": "Sales.Business",
-        "projectPath": "E:\\UT\\semestre-09\\seminario\\proyecto\\ControlBlood\\Sales.Business\\Sales.Business.csproj",
-        "packagesPath": "C:\\Users\\EDUARD\\.nuget\\packages\\",
-        "outputPath": "E:\\UT\\semestre-09\\seminario\\proyecto\\ControlBlood\\Sales.Business\\obj\\",
+        "projectPath": "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\Sales.Business\\Sales.Business.csproj",
+        "packagesPath": "C:\\Users\\joan_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\Sales.Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\EDUARD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\joan_\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -224,11 +413,17 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "E:\\UT\\semestre-09\\seminario\\proyecto\\ControlBlood\\Common\\Sales.Entity.csproj": {
-                "projectPath": "E:\\UT\\semestre-09\\seminario\\proyecto\\ControlBlood\\Common\\Sales.Entity.csproj"
+              "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\BloodBank.Data\\ControlBlood.Data.csproj": {
+                "projectPath": "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\BloodBank.Data\\ControlBlood.Data.csproj"
               },
-              "E:\\UT\\semestre-09\\seminario\\proyecto\\ControlBlood\\LayerData\\Sales.Data.csproj": {
-                "projectPath": "E:\\UT\\semestre-09\\seminario\\proyecto\\ControlBlood\\LayerData\\Sales.Data.csproj"
+              "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\BloodBank.Entities\\ControlBlood.Entity.csproj": {
+                "projectPath": "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\BloodBank.Entities\\ControlBlood.Entity.csproj"
+              },
+              "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\Common\\Sales.Entity.csproj": {
+                "projectPath": "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\Common\\Sales.Entity.csproj"
+              },
+              "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\LayerData\\Sales.Data.csproj": {
+                "projectPath": "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\LayerData\\Sales.Data.csproj"
               }
             }
           }
@@ -257,21 +452,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\UT\\semestre-09\\seminario\\proyecto\\ControlBlood\\Sales.Repository.SqlServer\\Sales.Repository.csproj": {
+    "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\Sales.Repository.SqlServer\\Sales.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\UT\\semestre-09\\seminario\\proyecto\\ControlBlood\\Sales.Repository.SqlServer\\Sales.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\Sales.Repository.SqlServer\\Sales.Repository.csproj",
         "projectName": "Sales.Repository",
-        "projectPath": "E:\\UT\\semestre-09\\seminario\\proyecto\\ControlBlood\\Sales.Repository.SqlServer\\Sales.Repository.csproj",
-        "packagesPath": "C:\\Users\\EDUARD\\.nuget\\packages\\",
-        "outputPath": "E:\\UT\\semestre-09\\seminario\\proyecto\\ControlBlood\\Sales.Repository.SqlServer\\obj\\",
+        "projectPath": "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\Sales.Repository.SqlServer\\Sales.Repository.csproj",
+        "packagesPath": "C:\\Users\\joan_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\Sales.Repository.SqlServer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\EDUARD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\joan_\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -285,11 +480,14 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "E:\\UT\\semestre-09\\seminario\\proyecto\\ControlBlood\\Common\\Sales.Entity.csproj": {
-                "projectPath": "E:\\UT\\semestre-09\\seminario\\proyecto\\ControlBlood\\Common\\Sales.Entity.csproj"
+              "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\BloodBank.Business\\BloodBank.Business.csproj": {
+                "projectPath": "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\BloodBank.Business\\BloodBank.Business.csproj"
               },
-              "E:\\UT\\semestre-09\\seminario\\proyecto\\ControlBlood\\Sales.Business\\Sales.Business.csproj": {
-                "projectPath": "E:\\UT\\semestre-09\\seminario\\proyecto\\ControlBlood\\Sales.Business\\Sales.Business.csproj"
+              "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\Common\\Sales.Entity.csproj": {
+                "projectPath": "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\Common\\Sales.Entity.csproj"
+              },
+              "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\Sales.Business\\Sales.Business.csproj": {
+                "projectPath": "C:\\Users\\joan_\\OneDrive\\Documents\\Joan\\semestre-09\\seminario\\proyectos\\controlBlood2\\Sales.Business\\Sales.Business.csproj"
               }
             }
           }
@@ -324,7 +522,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
